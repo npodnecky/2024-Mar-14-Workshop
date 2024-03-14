@@ -1,0 +1,267 @@
+    1  /Users/npodnecky/Downloads/LightroomCorrectPermission.sh 
+    2  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+    3  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+    4  wget -O Miniforge3.sh "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+    5  curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+    6  bash Mambaforge-$(uname)-$(uname -m).sh
+    7  conda config --set auto_activate_base false
+    8  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+    9  conda activate ngs-pipelines
+   10  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl=2.0.1  nextflow 
+   11  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+   12  conda create \
+   13  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+   14  conda install -c bioconda fastp
+   15  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+   16  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+   17  conda install -c bioconda fastp
+   18  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+   19  conda install -c "bioconda/label/cf201901" fastp
+   20  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+   21  conda update --all
+   22  conda install fastp
+   23  conda config --add channels bioconda
+   24  conda config --add channels conda-forge
+   25  conda create -n my_env
+   26      $ conda update -n base -c conda-forge conda
+   27      conda update -n base -c conda-forge conda
+   28  conda config --add channels bioconda
+   29  conda update --all
+   30  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+   31  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+   32  conda create -y -n ncbi-tools -c conda-forge -c bioconda -c defaults sra-tools=2.10.1 entrez-direct=13.9
+   33  conda create -y -n pysradb -c conda-forge -c bioconda -c defaults python=3.7 pysradb
+   34  conda activate pysradb
+   35  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+   36  brew install miniforge
+   37  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   38  chsh -s /bin/zsh
+   39  mamba create -n ngs-pipelines -c conda-forge -c bioconda assembly-scan prokka shovill fastqc fastp fastq-dl nextflow nf-core
+   40  conda install -c conda-forge pigz
+   41  conda install -c "conda-forge/label/cf202003" pigz
+   42  echo $SHELL
+   43  git --version
+   44  git --version
+   45  nano --version
+   46  ls
+   47  ls -F
+   48  ls --help
+   49  ls --help
+   50  ls -?
+   51  man ls
+   52  ls -s
+   53  pwd
+   54  ls -F
+   55  cd Downloads/
+   56  pwd
+   57  cd ..
+   58  pwd
+   59  cd Desktop/
+   60  ls
+   61  cd shell-lesson-data
+   62  ls
+   63  cd
+   64  pwd
+   65  ls
+   66  cd ~
+   67  pwd
+   68  cd ..
+   69  pwd
+   70  cd..
+   71  cd ..
+   72  pwd
+   73  ls
+   74  cd .
+   75  cd ~
+   76  cd home
+   77  ls
+   78  cd Desktop/
+   79  ls
+   80  cd shell-lesson-data/
+   81  ls
+   82  cd exercise-data/
+   83  ls
+   84  file numbers.txt 
+   85  mkdir thesis
+   86  ls
+   87  pwd
+   88  mkdir -p ../project/data
+   89  cd
+   90  pwd
+   91  cd Desktop/shell-lesson-data/data
+   92  cd Desktop/shell-lesson-data/
+   93  ls
+   94  cd exercise-data/
+   95  ls
+   96  cd thesis
+   97  ls
+   98  touch draft.txt
+   99  nano draft.txt
+  100  mv draft.txt quotes.txt
+  101  ls
+  102  cd ..
+  103  ls
+  104  mov thesis/quotes.txt .
+  105  mv thesis/quotes.txt .
+  106  ls
+  107  cp quotes.txt thesis/
+  108  cd thesis/
+  109  ls
+  110  cd ..
+  111  ls
+  112  ls
+  113  cp -r thesis . thesis-backup
+  114  mkdir thesis-backup
+  115  ls
+  116  cp - r thesis thesis-backup
+  117  ls
+  118  cd..
+  119  cd ..
+  120  ls
+  121  cd exercise-data/
+  122  ls
+  123  cd alkanes/
+  124  ls
+  125  ls *pdb
+  126  ls
+  127  ls {cubane ethane}.pdb
+  128  ls {cubane, ethane}.pdb
+  129  ls {cubane,ethane}.pdb
+  130  pwd
+  131  cd Desktop/shell-lesson-data/exercise-data/
+  132  ls
+  133  ls creatures/
+  134  head -n 5
+  135  ls
+  136  cd Desktop/shell-lesson-data/
+  137  ls
+  138  cd north-pacific-gyre/
+  139  ls
+  140  touch do-stats.sh
+  141  nano do-stats.sh
+  142  rm stat*
+  143  ls
+  144  bash do-stats.sh
+  145  nano do-st
+  146  nano do-stats.sh
+  147  bash do-stats.sh
+  148  rm stat*
+  149  ls
+  150  nano do-stats.sh 
+  151  bash do-stats.sh 
+  152  nano do-stats.sh
+  153  cd ..
+  154  ls
+  155  cd exercise-data/
+  156  ls
+  157  cd writing
+  158  ls
+  159  less LittleWomen.txt 
+  160  grep "^.o" haiku.txt
+  161  grep -0 Amy LittleWomen.txt
+  162  grep -o Amy LittleWomen.txt | wc -l
+  163  grep -o "Jo[z-z]*" LittleWomen.txt | sort | uniq -c
+  164  grep -o "Jo[a-z]*" LittleWomen.txt | sort | uniq -c
+  165  cd ..
+  166  ls
+  167  cd ..
+  168  ls
+  169  find . -nam "*txt.txt"
+  170  cd north-pacific-gyre/
+  171  find . -nam "*txt.txt"
+  172  git
+  173  git config --global core.editor "nano -w"
+  174  git config --global --edit
+  175  git confg --global user.name "Nicole L. Podnecky"
+  176  git config --global user.name "Nicole L. Podnecky"
+  177  git config --global --edit
+  178  git config --global init.defaultBranch main
+  179  cd ~/Desktop
+  180  mkdir goo
+  181  cd goo
+  182  pwd
+  183  ls
+  184  touch README
+  185  ls
+  186  nano README
+  187  git inti
+  188  git init
+  189  git init -h
+  190  git status
+  191  git add README
+  192  git status
+  193  git commit
+  194  git config --global user.email "npodnecky@smcvt.edu"
+  195  git commit
+  196  git log
+  197  ls
+  198  nano README
+  199  git add README
+  200  git commit
+  201  git add -A
+  202  git commit
+  203  git log
+  204  pwd
+  205  cp ../
+  206  cp ../shell-lesson-data/north-pacific-gyre/do-stats.sh .
+  207  ls
+  208  cp ../shell-lesson-data/north-pacific-gyre/*.sh .
+  209  ls
+  210  mkdir test-data
+  211  ls ../shell-lesson-data/north-pacific-gyre/NENE*
+  212  cp ../shell-lesson-data/north-pacific-gyre/NENE* test-data/
+  213  ls
+  214  cd test-data
+  215  ls
+  216  tree .
+  217  tree
+  218  ltree 
+  219  git status
+  220  git add goostats.sh goodiff.sh
+  221  pwd
+  222  cd ..
+  223  git add goostats.sh goodiff.sh
+  224  git commit
+  225  git add do-stats/sh
+  226  git add do-stats.sh
+  227  git committ
+  228  git commit
+  229  git status
+  230  git add test-data/*
+  231  git status
+  232  git commit
+  233  git status
+  234  git log
+  235  git status
+  236  git log README
+  237  git diff d0fa9542730 README
+  238  git log
+  239  git status
+  240  git checkout main
+  241  ls
+  242  git checkout
+  243  ls
+  244  git remote add origin https://github.com:npodnecky/2024-Mar-14-Workshop.git
+  245  git remote add origin https://github.com/npodnecky/2024-Mar-14-Workshop.git
+  246  git remote -v
+  247  git push origin main
+  248  ssh-keygen -t ed25519 -C "npodnecky@smcvt.edu"
+  249  ls ~/.ssh/*
+  250  cat ~/.ssh/id_ed25519.pub
+  251  git push origin main
+  252  git push origin main
+  253  ls
+  254  git push origin main
+  255  git remote -v
+  256  git remote add origin git@github.com/npodnecky/2024-Mar-14-Workshop.git
+  257  git remote -f add origin git@github.com/npodnecky/2024-Mar-14-Workshop.git
+  258  git remove remove origin
+  259  git remote remove origin
+  260  git remote add origin git@github.com/npodnecky/2024-Mar-14-Workshop.git
+  261  git remote -v
+  262  git push origin main
+  263  git remote remove origin
+  264  git remote add origin git@github.com:npodnecky/2024-Mar-14-Workshop.git
+  265  git push origin main
+  266  git remote -v
+  267  history > workshop_history.txt
